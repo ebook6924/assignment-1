@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+  font-family:system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bannar-part{
+    display: flex;
+    background-color: #f9ced7;
+    padding-left: 30px;
+   
+}
+.bannar-box{
+    width: 50%;
+    padding-top: 32px;
+}
+.bannar-title{
+    color: black;
+    font-size: 45px;
+   
+}
+.bannar-discription{
+    margin-top: 40px;
+    font-size: 18px;
+    
+}
+.btn{
+    margin-top: 20px;
+    background-color: rgb(247, 133, 91);
+   
+    padding: 12px;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: rgb(104, 244, 125);
+    color: black;
+}
+.bannar-flower-box{
+    width: 50%;
+    padding-top: 32px;
+}
+.img{
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.bannar-midle-part{
+    margin:0 auto;
+    text-align: center;
+    width: 600px;
+    height: 140px;
+}
+.bannar-midle-title{
+    margin-top: 42px;
+    text-align: center;
+    font-size: 35px;
+}
+.bannar-midle-discription{
+    margin-top: 12px;
+    font-size: 18px;
+}
+.bannar-midle-box{
+    margin-top: 22px;
+    display: flex;
+    gap: 12PX;
+    padding: 0px 12px;
+}
+.bannar-midle-box-1{
+    width: 450px;
+    height: 470px;
+    background-color: #f7d2e4;
+    border-radius: 170px 180px 0px 0px;
+}
+.bannar-midle-img{
+    width: fit-content;
+    margin-top: 42px;
+}
+.bannar-midle-box-2{
+    width: 450px;
+    height: 470px;
+    background-color: rgb(203, 247, 232);
+    border-radius: 170px 180px 0px 0px;
+}
+.bannar-midle-img-2{
+    width: fit-content;
+    margin-top: 50px;
+}
+.bannar-midle-box-3{
+    width: 450px;
+    height: 470px;
+    background-color: rgb(164, 224, 254);
+    border-radius: 170px 180px 0px 0px;
+}
+.bannar-midle-img-3{
+    width: fit-content;
+    margin-top: 0px;
+}
