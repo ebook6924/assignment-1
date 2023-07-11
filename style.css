@@ -143,19 +143,49 @@
     margin-top: 50px;
     display: flex;
     gap: 12px;
+    justify-content: space-between;
+    padding: 0 60px;
 }
 .flower{
-    margin-left: 8px;
-    width: 280px;
-    height: 300px;
+    width: 250px;
+    height: 280px;
     border: 2px solid black;
-    border-radius: 7px;
+    border-radius:7px;
 }
 .flower:hover{
     border: 2px solid rgb(150, 26, 26);
 }
 .flower-size{
-    width: 280px;
-    height: 300px;
+    width: 250px;
+    height: 280px;
     border-radius: 9px;
+}
+.last-section-part{
+    margin-top: 50PX;
+}
+.last-section{
+    background-image: url("./image/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    width: 90%;
+    height:500px;
+    margin: 0 auto;
+}
+.last-part{
+    text-align: center;
+   
+}
+.last-part-title{
+    padding-top: 150px;
+    font-size: 35px;
+}
+.last-discription{
+    font-size: 18px;
+}
+.input{
+    margin-top: 25px;
+}
+.input-fild{
+    width: 40%;
+    padding: 14px;
+    font-size: 18px;
 }
