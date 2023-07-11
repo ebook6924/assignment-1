@@ -97,3 +97,15 @@
     width: fit-content;
     margin-top: 0px;
 }
+.midle-head-part{
+    margin-top: 40px;
+}
+.midle-part{
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 28px;
+    width:80% ;
+    margin: 0 auto;
+}
