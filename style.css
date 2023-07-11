@@ -9,6 +9,13 @@
     padding-left: 30px;
    
 }
+.bannar-part-1{
+    display: flex;
+    background-color: #fda5b3;
+    padding-left: 30px;
+   
+}
+
 .bannar-box{
     width: 50%;
     padding-top: 32px;
@@ -43,7 +50,8 @@
 }
 .img{
     width: fit-content;
-    margin-left: 20px;
+    margin-left: 60px;
+    
 }
 
 .bannar-midle-part{
@@ -77,6 +85,9 @@
     width: fit-content;
     margin-top: 42px;
 }
+.link{
+    text-align: center;
+}
 .bannar-midle-box-2{
     width: 450px;
     height: 470px;
@@ -86,6 +97,10 @@
 .bannar-midle-img-2{
     width: fit-content;
     margin-top: 50px;
+}
+.link-2{
+    margin-top: 50px;
+    text-align: center;
 }
 .bannar-midle-box-3{
     width: 450px;
@@ -97,15 +112,50 @@
     width: fit-content;
     margin-top: 0px;
 }
+.link-3{
+    text-align: center;
+}
 .midle-head-part{
-    margin-top: 40px;
+    margin-top: 70px;
 }
 .midle-part{
     margin-top: 42px;
     display: flex;
     justify-content: space-between;
     background-color: antiquewhite;
-    padding: 28px;
+    padding: 38px;
     width:80% ;
     margin: 0 auto;
+}
+.off{
+    color: rgb(252, 129, 58);
+}
+.banner-midle-section{
+    margin-top: 70px;
+}
+.bannar-title-1{
+    padding-top: 80px;
+    color: black;
+    font-size: 45px;
+   
+}
+.flowers{
+    margin-top: 50px;
+    display: flex;
+    gap: 12px;
+}
+.flower{
+    margin-left: 8px;
+    width: 280px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.flower:hover{
+    border: 2px solid rgb(150, 26, 26);
+}
+.flower-size{
+    width: 280px;
+    height: 300px;
+    border-radius: 9px;
 }
